@@ -12,17 +12,17 @@ A variable that is shared by **all instances** of a class. Class variables are d
 
 **Instance Method**
 
--Instance methods can freely access attributes and other methods on the same object. 
+- Instance methods can freely access attributes and other methods on the same object. 
 
--Instance methods can modify an **object’s state** and **class state**.
+- Instance methods can modify an **object’s state** and **class state**.
 
 **Class Method**
 
--class methods take a `cls` parameter that points to the class. 
+- class methods take a `cls` parameter that points to the class. 
 
--Because the class method only has access to this `cls` argument, it **can’t modify object instance state**.  
+- Because the class method only has access to this `cls` argument, it **can’t modify object instance state**.  
 
--class methods can **modify class** state that applies across all instances of the class.
+- class methods can **modify class** state that applies across all instances of the class.
 
 **Static Method**
 Static method can neither modify **object state** nor **class state**. Static methods are restricted in what data they can access - and they’re primarily a way to namespace your methods.
